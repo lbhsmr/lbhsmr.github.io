@@ -270,3 +270,37 @@ hr {
 	border-width: 2px;
 	color: #f9dc9a;
 }
+
+.game-center-text {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.game-text {
+	position: fixed;
+	margin: 0;
+	padding: 50px;
+	background-color: #211c33;
+}
+
+.top-left {
+	left: 0;
+	top: 70px;
+}
+
+.top-right {
+	right: 0;
+	top: 70px;
+}
+
+.bottom-left {
+	left: 0;
+	bottom: 0;
+}
+
+.bottom-right {
+	right: 0;
+	bottom: 0;
+}
